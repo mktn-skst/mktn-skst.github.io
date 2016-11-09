@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+.body {
+    background-color: #eae5e3;
+}
+.jumbotron {
+    color: #ffffff;
+    background-image: url("../skst/バカンス/headera.png");
+    background-size: cover;
+    background-position: center 60%;
+}
+.myfont01 {
+    font-family: 'Quicksand', sans-serif;
+}
+.myfont02 {
+    font-family: 'Noto Sans Japanese', serif;
+}
+.tabalign {
+    text-align: right;
+}
+
+.fiftysounds {
+    display: none;
+}
