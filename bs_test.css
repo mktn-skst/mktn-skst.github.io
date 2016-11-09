@@ -4,7 +4,7 @@
 }
 .jumbotron {
     color: #ffffff;
-    background-image: url("../skst/バカンス/headera.png");
+    background-image: url("./img/headera.png");
     background-size: cover;
     background-position: center 60%;
 }
