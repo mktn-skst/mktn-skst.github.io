@@ -13,6 +13,8 @@ jQuery(function($){
 		// 情報表示 無効
 		info: false,
 		// ページング機能 無効
-		paging: false		
+		paging: false,
+		scrollX: true,
+		scrollY: 200
 	});
 });
