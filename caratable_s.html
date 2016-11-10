@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./datatables/css/dataTables.bootstrap.css">
+    <link rel="stylesheet" href="./bs_test.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+    <title>その他いろいろ</title>
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  </head>
+  <body style="padding-top:50px;">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">ナビゲーションの切替</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"><strong class="myfont01">Dr.mktn's office</strong></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav myfont02">
+            <li><a href="./bs_test.html"><strong>ホーム</strong></a></li>
+            <li><a href="https://goo.gl/photos/cxBDMycpDYxPEADZ8"><strong>雑コラ</strong></a></li>
+            <li class="disabled"><a href="#"><strong>スクショ</strong></a></li>
+            <li class="disabled"><a href="#"><strong>GIF</strong></a></li>
+            <li class="active"><a href="./storytop.html"><strong>その他いろいろ</strong></a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- /.navbar -->
+    <div class="container myfont02">
+      <h2>キャラクターソート</h2>
+      <p class="text-info">名前(五十音), 身長, スリーサイズでソートできます。<!--左上の"Show 10 entries"を
+        変更すると表示される人数が変わります。--></p><hr>
+      <table id="chara-table" class="table table-striped table-hover dataTables tabalign">
+        <thead>
+          <tr>
+            <th><div Align="right">#</div></th>
+            <th><div Align="right">氏名</div></th>
+            <th><div Align="right">身長 [cm]</div></th>
+            <th><div Align="right">B [cm]</div></th>
+            <th><div Align="right">W [cm]</div></th>
+            <th><div Align="right">H [cm]</div></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><div class="fiftysounds">15</div>サトカ</td>
+            <td>148.1</td>
+            <td>75</td>
+            <td>55</td>          
+            <td>76</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><div class="fiftysounds">32</div>伊緒</td>
+            <td>167.2</td>
+            <td>90</td>
+            <td>60</td>
+            <td>89</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><div class="fiftysounds">28</div>椿芽</td>
+            <td>155.7</td>
+            <td>82</td>
+            <td>57</td>
+            <td>80</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><div class="fiftysounds">11</div>悠水</td>
+            <td>153.1</td>
+            <td>81</td>
+            <td>58</td>        
+            <td>80</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><div class="fiftysounds">22</div>まな</td>
+            <td>146.5</td>
+            <td>80</td>
+            <td>57</td>
+            <td>79</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><div class="fiftysounds">30</div>紗々</td>
+            <td>151.7</td>
+            <td>80</td>
+            <td>58</td>          
+            <td>80</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><div class="fiftysounds">09</div>遥</td>
+            <td>157.4</td>
+            <td>83</td>
+            <td>59</td>
+            <td>81</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><div class="fiftysounds">08</div>天音<!--とてもかわいい--></td>
+            <td>153.3</td>
+            <td>81</td>
+            <td>59</td>
+            <td>81</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><div class="fiftysounds">35</div>真乃<!--とてもかわいい--></td>
+            <td>158.7</td>
+            <td>79</td>
+            <td>54</td>
+            <td>77</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td><div class="fiftysounds">21</div>いつみ</td>
+            <td>161.4</td>
+            <td>89</td>
+            <td>60</td>
+            <td>86</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td><div class="fiftysounds">34</div>マリ</td>
+            <td>165.3</td>
+            <td>85</td>
+            <td>58</td>
+            <td>85</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td><div class="fiftysounds">02</div>イミナ</td>
+            <td>169.8</td>
+            <td>84</td>
+            <td>61</td>
+            <td>81</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td><div class="fiftysounds">14</div>ハヅキ</td>
+            <td>160.2</td>
+            <td>89</td>
+            <td>59</td>
+            <td>81</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td><div class="fiftysounds">12</div>ﾘｮｳｺ</td>
+            <td>156.7</td>
+            <td>87</td>
+            <td>59</td>
+            <td>87</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td><div class="fiftysounds">17</div>アコ</td>
+            <td>142.1</td>
+            <td>74</td>
+            <td>53</td>
+            <td>75</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td><div class="fiftysounds">24</div>依咲里</td>
+            <td>152.8</td>
+            <td>76</td>
+            <td>54</td>
+            <td>76</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td><div class="fiftysounds">25</div>華賀利</td>
+            <td>152.8</td>
+            <td>76</td>
+            <td>54</td>
+            <td>76</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td><div class="fiftysounds">26</div>二穂</td>
+            <td>143.5</td>
+            <td>74</td>
+            <td>53</td>
+            <td>76</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td><div class="fiftysounds">01</div>雪枝</td>
+            <td>154.1</td>
+            <td>82</td>
+            <td>59</td>
+            <td>80</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td><div class="fiftysounds">33</div>楓</td>
+            <td>159.6</td>
+            <td>89</td>
+            <td>60</td>
+            <td>89</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td><div class="fiftysounds">19</div>夕依</td>
+            <td>144.6</td>
+            <td>75</td>
+            <td>54</td>
+            <td>76</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td><div class="fiftysounds">10</div>ほたる</td>
+            <td>155.1</td>
+            <td>82</td>
+            <td>58</td>
+            <td>79</td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td><div class="fiftysounds">03</div>あおい</td>
+            <td>159.4</td>
+            <td>81</td>
+            <td>58</td>
+            <td>81</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td><div class="fiftysounds">07</div>栞</td>
+            <td>162.7</td>
+            <td>90</td>
+            <td>61</td>          
+            <td>89</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td><div class="fiftysounds">36</div>チカ</td>
+            <td>153.0</td>
+            <td>78</td>
+            <td>56</td>
+            <td>77</td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td><div class="fiftysounds">13</div>ﾛｯﾃｨ</td>
+            <td>139.9</td>
+            <td>73</td>
+            <td>53</td>
+            <td>75</td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td><div class="fiftysounds">16</div>ﾀｰﾆｬ</td>
+            <td>171.2</td>
+            <td>91</td>
+            <td>60</td>
+            <td>87</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td><div class="fiftysounds">27</div>フェイ</td>
+            <td>155.5</td>
+            <td>81</td>
+            <td>58</td>
+            <td>81</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td><div class="fiftysounds">29</div>モニカ</td>
+            <td>157.9</td>
+            <td>88</td>
+            <td>60</td>
+            <td>87</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td><div class="fiftysounds">23</div>ノエル</td>
+            <td>160.7</td>
+            <td>84</td>
+            <td>59</td>
+            <td>83</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td><div class="fiftysounds">31</div>ﾓﾙｶﾞﾅ</td>
+            <td>-???-</td>
+            <td>-??-</td>
+            <td>-??-</td>
+            <td>-??-</td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td><div class="fiftysounds">18</div>幸子</td>
+            <td>165.3</td>
+            <td>85</td>
+            <td>59</td>
+            <td>81</td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td><div class="fiftysounds">04</div>あから</td>
+            <td>160.8</td>
+            <td>83</td>
+            <td>59</td>
+            <td>80</td>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td><div class="fiftysounds">05</div>小織</td>
+            <td>138.5</td>
+            <td>73</td>
+            <td>52</td>
+            <td>77</td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td><div class="fiftysounds">06</div>陽奈</td>
+            <td>160.7</td>
+            <td>87</td>
+            <td>61</td>
+            <td>86</td>
+          </tr>
+          <tr>
+            <td>36</td>
+            <td><div class="fiftysounds">20</div>ゆか子</td>
+            <td>165.4</td>
+            <td>89</td>
+            <td>60</td>
+            <td>85</td>
+          </tr>
+        </tbody>
+      </table> 
+      <hr>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../bootstrap/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <script src="./datatables/js/jquery.dataTables.min.js"></script>
+    <script src="./datatables/js/dataTables.bootstrap.min.js"></script>
+    <script src="./dt_setting.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $('#example').DataTable();
+      } );
+    </script>
+  </body>
+</html>
