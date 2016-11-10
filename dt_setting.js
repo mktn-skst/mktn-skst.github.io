@@ -15,6 +15,20 @@ jQuery(function($){
 		// ページング機能 無効
 		paging: false,
 		//scrollX: true//,
-		scrollY: 500
+		scrollY: 600
+	});
+	$("#chara-table-phone").dataTable({
+		// 件数切替機能 無効
+		lengthChange: false,
+		// 検索機能 有効
+		searching: true,
+		// ソート機能 有効
+		ordering: true,
+		// 情報表示 無効
+		info: false,
+		// ページング機能 無効
+		paging: false,
+		//scrollX: true//,
+		scrollY: 300
 	});
 });
