@@ -13,11 +13,6 @@ jQuery(function($){
 		// 情報表示 無効
 		info: false,
 		// ページング機能 無効
-		paging: false
-		// 横スクロールバーを有効にする (scrollXはtrueかfalseで有効無効を切り替えます)
-		scrollX: true,	
-		// 縦スクロールバーを有効にする (scrollYは200, "200px"など「最大の高さ」を指定します)
-		scrollY: 200
-    
+		paging: false		
 	});
 });
