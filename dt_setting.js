@@ -14,7 +14,7 @@ jQuery(function($){
 		info: false,
 		// ページング機能 無効
 		paging: false,
-		scrollX: true,
-		scrollY: 200
+		scrollX: true//,
+		//scrollY: 200
 	});
 });
